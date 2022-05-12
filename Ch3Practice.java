@@ -2,60 +2,38 @@ public class Ch3Practice
 {
 	public static void main (String arg[])
 	{
-		/*System.out.print("Hello World");
-		int a;
-		a=0b101101111;
-		System.out.println( "\n" + a);
-		*/
+		/*System.out.println("Hello world");
+		int month_days[];
+		month_days = new int[12];
+		month_days[0] =31;
+		month_days[1] =28;
+		month_days[2] =31;
+		month_days[3] =30;
+		month_days[4] =31;
+		month_days[5] =28;
+		month_days[6] =30;
+		month_days[7] =30;
+		month_days[8] =31;
+		month_days[9] =30;
+		month_days[10] =28;
+		month_days[11] =30;
+		System.out.println("january has" + month_days[0]  + "days");
+		
 
-		/*int s;
-		s= (float)746;
-		System.out.println(s);*/
+		int Month_days[]={30,31,28,30,31,28,31,31,30,30,31,28};
+		System.out.println("january has" + Month_days[0]  + "days");
+	*/
 
-		/*int x;
-		x=10;
-		if (x==10)
+
+		int a,b;
+		for(a=1; a<=5; a++)
 		{
-			int y=20;
-			System.out.println(" X and Y: " + x + " " + y);
-			x=y*2;
-		}	
-//x is still known here
-			System.out.println("\n x is now " + x);*/
-
-
-	/*	int a;
-		for (a=0; a<3; a++)
-		{
-			int b=-1;
-			System.out.println("b is " + b);
-			int b=100;
-			System.out.println("b is now " + b);
+			for(b=1; b<=7; b++)
+			{
+				System.out.println("*");
+			}
+			System.out.println("\n");
 		}
-	*/
 
-
-	/*	byte b;
-		int i=257;
-		double d=323.142;
-		b = (byte) i;
-		System.out.println("i and b is   " + i + " and " + b);
-		i= (int) d;
-		System.out.println("\n i and d is  " + i + " and " + d);
-		b= (byte) d;
-		System.out.println("\n b and d is " + b + " and " + d);
-	*/
-
-		byte b = 42;
-		char c = 'a';
-		short s = 1024;
-		int i = 50000;
-		float f = 5.67f;
-		double d = .1234;
-		double result = (f * b) + (i / c) - (d * s);
-		System.out.println((f * b) + " + " + (i / c) + " - " + (d * s));
-		System.out.println("result = " + result);
-
-		// end page book 51
 	}
 }
